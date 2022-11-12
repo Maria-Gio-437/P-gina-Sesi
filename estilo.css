@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+*{
+    font-family: "open sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+.button{
+    cursor: pointer!important;
+    border: none;
+    padding: 10px;
+    height: 45px;
+    width: 130px;
+    background-color:#0060a6;
+    transition:background-color 0.4s, color 0.4s;
+    font-size: 15pt;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.button:hover{
+    border: none;
+    background-color: #2da76e;
+}
+
+#texto_cabeçalho{
+    font-size: 15pt;
+    color:#0060a6;
+    color-interpolation-filters: inherit;
+    letter-spacing: 1px;
+}
+
+.button_social button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-top:18%;
+    border: none;
+}
+
+.button_social div{
+    position: fixed;   
+    display: block; 
+    width: 40px;
+}
+
+#img_face{
+    margin-left: 1260px;
+    margin-top: 180px;
+    background-image: url("Image_site/face.png");
+}
+
+#img_insta{
+    margin-left: 1260px;
+    margin-top: 230px;
+    background-image: url("Image_site/insta.png");
+}
+
+#img_world{
+    margin-left: 1260px;
+    margin-top: 280px;
+    background-image: url("Image_site/world.png");
+}
+
+.container img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.container p{
+    font-size: 50pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    right: 30%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    color:#0060a6;
+    background-color: #ffffffcb;
+}
+
+.principal{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
+    width: 80%;
+}
+
+#texto_maior{
+    font-size: 17pt;
+    color:#0060a6;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#button_ver_mais{
+    cursor: pointer!important;
+    position: relative;
+    padding: 10px;
+    top: 10%;
+    left: 43%;
+}
+
+.informacoes{
+    display: flex;
+}
+
+.texto_verde{
+    color: #009A7B;
+    font-weight: bold;
+    font-size: 28pt;
+}
+
+#texto_1{
+    width: 50%;
+    padding-top: 18%;
+    padding-bottom: 10%;
+}
+
+#texto_2{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#texto_4{
+    padding-top: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#texto_5{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#texto_6{
+    padding-top: 10%;
+    text-align: center;
+}
+
+#lado_verde{
+    font-size: 17pt;
+    line-height: 30px;
+    width: 50%;
+    color:#0060a6;
+    text-align: justify;
+    letter-spacing: 2px;
+    padding-top: 15%;
+}
+
+.button_cursos button{
+    cursor: pointer!important;
+    margin: 10px;
+    border: transparent;
+    position: relative;
+    width: 310px;
+    height: 231px;
+}
+
+#button_nat{
+    background-image: url("image_site/nat.png");
+
+}
+
+#button_mat{
+    background-image: url("image_site/mat.png");
+}
+
+#button_prof{
+    background-image: url("image_site/profissional.png");
+}
+
+.img_relatos img{
+    border: none;
+    width: 198px;
+    height: 198px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 5%;
+}
+
+.depoimentos{
+    display: flex;
+}
+
+#relato1{
+    font-size: 16pt;
+    padding:20px;
+    height: 265px;
+    width: 50%;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#relato2{
+    font-size: 16pt;
+    padding: 20px;
+    height: 197px;
+    width: 50%;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.nomes{
+    display: flex;
+    text-align: center;
+    color: #0060A6;
+}
+
+#nome_aluna{
+    width: 50%;
+}
+
+#nome_prof{
+    width: 50%;
+}
+
+#texto_azul{
+    color: #0060A6;
+    padding-top: 10px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.entradas input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #0060A6;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 13pt;
+    outline: none;
+}
+
+#nome_aluno{
+    margin-bottom: 0%;
+    margin-left: 15%;
+    width: 700px;
+}
+#nome_aluno::placeholder{
+    font-size: 13pt;
+}
+
+#ddd{
+    margin-left: 15%;
+    width: 180px;
+}
+#ddd::placeholder{
+    font-size: 13pt;
+}
+
+#telefone{
+    margin-left: 1%;
+    width: 500px;
+}
+#telefone::placeholder{
+    font-size: 13pt;
+}
+
+#email{
+    margin-left: 15%;
+    display: block;
+    width: 700px;
+}
+#email::placeholder{
+    font-size: 13pt;
+}
+
+#button_enviar{
+    width: 700px;
+    margin-top: 2%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.rodape{
+    margin-top: 20%;
+    background-color: #a9a9a950;
+    width: 100%;
+    height: 200px;
+}
+
+.rodape img{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 200px;
+    height: 40px;
+}
+
+.rodape span{
+    position: absolute;
+    font-size: 16pt;
+    color: #0060A6;
+    margin-top: 100px;
+    margin-left: 90px;
+}
